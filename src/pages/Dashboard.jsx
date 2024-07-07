@@ -12,6 +12,7 @@ function Dashboard() {
     <div>
       <Navbar />
       Dashboard
+      balsdfasfasfafa
     </div>
   )
 }
