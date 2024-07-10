@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     //give me a dashboard navbar that fixed in left side with tailwind
-    <div className="hidden bg-gray-800 h-screen w-64 top-0 left-0">
+    <div className="hidden lg:block bg-gray-800 h-screen w-64 top-0 left-0">
       <div className="text-white text-2xl font-bold p-4">Dashboard</div>
       <Link to="/dashboard" className="block text-white p-4 hover:bg-gray-700">
         Home
