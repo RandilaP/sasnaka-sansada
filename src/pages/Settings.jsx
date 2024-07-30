@@ -26,13 +26,13 @@ const SettingOption = ({ icon, title, description }) => {
 
 function Settings() {
   return (
-    <div className=" flex h-screen bg-gray-100 overflow-auto">
+    <div className=" flex min-h-screen bg-gray-100 overflow-auto">
       <Navbar />
-      <div className="flex-1 ml-12">
-        <h1 className="uppercase font-bold text-3xl font-sans mt-8 ">
+      <div className="flex-1 ml-12 pb-14">
+        <h1 className="uppercase font-bold text-3xl font-sans mt-12 ">
           Settings
         </h1>
-        <div className="bg-white rounded shadow-2xl mt-10 mr-10">
+        <div className="bg-white rounded shadow-2xl mt-12 mr-10">
           <div className="flex p-16 justify-start">
             <img
               src={profile}
