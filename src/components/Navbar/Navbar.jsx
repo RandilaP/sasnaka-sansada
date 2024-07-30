@@ -22,9 +22,9 @@ function Navbar() {
     //give me a dashboard navbar that fixed in left side with tailwind
     <div className="flex">
       <div
-        className={`fixed lg:relative z-10 lg:z-auto min-h-screen p-2 bg-white  w-80 top-0 left-0 transition-transform transform ${
+        className={`fixed lg:relative z-10 lg:z-auto h-full p-2 bg-white  w-80 top-0 left-0 transition-transform transform ${
           isOpen ? "translate-x-0 " : "-translate-x-full "
-        } lg:translate-x-0`}
+        } lg:translate-x-0 lg:h-auto overflow-y-auto`}
       >
         <button
           className=" absolute lg:hidden items-center"
